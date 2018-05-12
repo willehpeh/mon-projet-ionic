@@ -17,4 +17,14 @@
       <p *ngFor="let line of appareil.description">{{ line }}</p>
     </ion-card-content>
   </ion-card>
+  <ion-grid no-padding>
+    <ion-row>
+      <ion-col>
+        <button ion-button full color="danger">Eteindre</button>
+      </ion-col>
+      <ion-col>
+        <button ion-button full color="secondary">Allumer</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
