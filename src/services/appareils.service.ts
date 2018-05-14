@@ -9,7 +9,9 @@ export class AppareilsService {
         'Temps de lavage: 2 heures',
         'Consommation: 173kWh/an'
       ],
-      isOn: true
+      isOn: true,
+      startTime: '',
+      endTime: ''
     },
     {
       name: 'Télévision',
@@ -17,7 +19,9 @@ export class AppareilsService {
         'Dimensions: 40 pouces',
         'Consommation: 22kWh/an'
       ],
-      isOn: true
+      isOn: true,
+      startTime: '',
+      endTime: ''
     },
     {
       name: 'Ordinateur',
@@ -25,7 +29,9 @@ export class AppareilsService {
         'Marque: fait maison',
         'Consommation: 500kWh/an'
       ],
-      isOn: false
+      isOn: false,
+      startTime: '',
+      endTime: ''
     }
   ];
 }
