@@ -34,4 +34,8 @@ export class AppareilsService {
       endTime: ''
     }
   ];
+
+  addAppareil(appareil: Appareil) {
+    this.appareilsList.push(appareil);
+  }
 }
